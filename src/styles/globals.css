@@ -1,0 +1,98 @@
+:root {
+  --color-sidebar-bg: #1e2433;
+  --color-sidebar-text: #c8cdd6;
+  --color-sidebar-text-dim: #8b92a0;
+  --color-sidebar-active-bg: #d42b2b;
+  --color-sidebar-active-text: #ffffff;
+
+  --color-surface: #ffffff;
+  --color-surface-alt: #f6f7f9;
+  --color-border: #e6e6e6;
+  --color-border-strong: #d0d4da;
+  --color-divider: #eceef1;
+
+  --color-text-primary: #1e1e1e;
+  --color-text-secondary: #676767;
+  --color-text-muted: #9a9a9a;
+  --color-text-link: #455d82;
+  --color-text-on-dark: #ffffff;
+
+  --color-primary: #252c44;
+  --color-primary-hover: #1b2135;
+  --color-accent-focus: #0774ee;
+  --color-accent-blue: #1976d2;
+  --color-accent-blue-soft: #e3f0fb;
+
+  --color-success: #2e7d32;
+  --color-success-soft: #e6f2e7;
+  --color-warning: #f9a825;
+  --color-warning-soft: #fff4d6;
+  --color-danger: #d32f2f;
+  --color-danger-soft: #fbe1e1;
+
+  --color-heatmap-green: #a4c8a4;
+  --color-heatmap-green-strong: #388e3c;
+  --color-heatmap-amber: #f9a825;
+  --color-heatmap-red: #e53935;
+  --color-heatmap-empty: #f5f5f5;
+
+  --color-ai-start: #b46fe0;
+  --color-ai-end: #ec5aa6;
+
+  --space-0-5: 4px;
+  --space-1: 8px;
+  --space-1-5: 12px;
+  --space-2: 16px;
+  --space-3: 24px;
+  --space-4: 32px;
+  --space-5: 40px;
+  --space-6: 48px;
+
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 8px;
+  --radius-pill: 999px;
+
+  --shadow-card: 0 1px 6px -2px rgba(0, 0, 0, 0.35);
+  --shadow-dropdown: 0 5px 8px -8px rgba(0, 0, 0, 0.08), 0 6px 16px -4px rgba(0, 0, 0, 0.32);
+
+  --font-body: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-size-xs: 11px;
+  --font-size-sm: 12px;
+  --font-size-md: 14px;
+  --font-size-lg: 16px;
+  --font-size-xl: 20px;
+  --font-size-2xl: 28px;
+
+  --sidebar-width: 208px;
+  --topbar-height: 56px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: var(--font-body);
+  font-size: var(--font-size-md);
+  color: var(--color-text-primary);
+  background: var(--color-surface-alt);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+}
